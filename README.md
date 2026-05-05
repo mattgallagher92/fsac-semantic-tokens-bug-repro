@@ -17,7 +17,7 @@ Obviously I've omitted lots, but the "rpc.receive" message above is the last thi
 
 ## Reproducing
 
-Use the configuration in the [./nvimconfig/](./nvimconfig/) subdirectory (e.g. place its contents in ~/.config/nvim/) and open Gen.fs in Neovim (run `nvim Gen.fs`) if you want to see this for yourself. You'll need fsautocomplete installed, which can be achieved with `dotnet tool install --global fsautcomplete`).
+Use the configuration in the [./nvimconfig/](./nvimconfig/) subdirectory (e.g. place its contents in ~/.config/nvim/) and open Gen.fs in Neovim (run `nvim Gen.fs`) if you want to see this for yourself. You'll need fsautocomplete installed, which can be achieved with `dotnet tool install --global fsautocomplete@0.83.0`).
 
 Of course, you should be able to see similar LSP logs with different editors.
 
