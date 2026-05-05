@@ -39,4 +39,4 @@ It seems that fsautocomplete is stating that some tokens have length around 4 bi
 
 I suspect that Neovim is freezing either because of the protocol violation or because it's trying to do a computation that takes a long time when the length is 4 billion.
 
-[FsAutoComplete#1407](https://github.com/ionide/FsAutoComplete/issues/1407) seems to report the same issue.
+[FsAutoComplete#1407](https://github.com/ionide/FsAutoComplete/issues/1407) seems to report the same issue. [neovim#36257](https://github.com/neovim/neovim/issues/36257) offers a workaround.
